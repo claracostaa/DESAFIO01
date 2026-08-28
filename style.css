@@ -1,97 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #0d1426;
-    color: white;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
-.container {
-    width: 100%;
-    min-height: 650px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+.painel {
+    width: 1090px;
+    height: 750px;
+    background-color: #404a5f;
+    margin: 20px auto;
+    position: relative;
 }
 
-.cubo {
-    width: 45px;
-    height: 45px;
-    background: grey;
-    border-radius: 4px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 10px;
-}
-
-.linha1 {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.linha2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.linha3 {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
-.linha4 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.linha5 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.linha6 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.linha7 {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-}
-
-.linha8 {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-}
-
-.linha9 {
-    display: flex;
-    justify-content: flex-start;
-    gap: 100px;
-}
-
-.linha10 {
-    display: flex;
-    justify-content: flex-end;
-    gap: 100px;
-}
-
-footer {
+.quadrado {
+    width: 55px;
+    height: 55px;
+    background-color: #d9f1ed;
+    color: white;
+    border-radius: 6px;
     text-align: center;
-    padding: 20px;
-    background-color: #080d18;
-    font-size: 14px;
+    line-height: 55px;
+    position: absolute;
+    box-shadow: 0 3px 5px #00000055;
 }
+
+.quadrado:hover {
+    background-color: #bebebe;
+}
+
+.n1 { left: 10px; top: 10px; }
+.n2 { left: 76px; top: 10px; }
+.n3 { left: 142px; top: 10px; }
+
+.n4 { left: 452px; top: 85px; }
+.n5 { left: 518px; top: 85px; }
+.n6 { left: 584px; top: 85px; }
+
+.n7 { left: 894px; top: 160px; }
+.n8 { left: 960px; top: 160px; }
+.n9 { left: 1026px; top: 160px; }
+
+.n10 { left: 10px; top: 235px; }
+.n11 { left: 518px; top: 235px; }
+.n12 { left: 1026px; top: 235px; }
+
+.n13 { left: 160px; top: 310px; }
+.n14 { left: 518px; top: 310px; }
+.n15 { left: 876px; top: 310px; }
+
+.n16 { left: 235px; top: 385px; }
+.n17 { left: 518px; top: 385px; }
+.n18 { left: 800px; top: 385px; }
+
+.n19 { left: 452px; top: 460px; }
+.n20 { left: 518px; top: 460px; }
+.n21 { left: 584px; top: 460px; }
+
+.n22 { left: 1026px; top: 535px; }
+.n23 { left: 518px; top: 535px; }
+.n24 { left: 10px; top: 535px; }
+
+.n25 { left: 160px; top: 610px; }
+.n26 { left: 518px; top: 610px; }
+.n27 { left: 876px; top: 610px; }
+
+.n28 { left: 442px; top: 685px; }
+.n29 { left: 518px; top: 685px; }
+.n30 { left: 594px; top: 685px; }
